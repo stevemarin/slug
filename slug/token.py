@@ -17,6 +17,7 @@ class TokenType(Enum):
     SLASH = "/"
     STAR = "*"
     UNDERSCORE = "_"
+    POUND = "#"
 
     BANG = "!"
     BANG_EQUAL = "!="
@@ -28,19 +29,22 @@ class TokenType(Enum):
     LESS_EQUAL = "<="
 
     AND = "and"
+    NOT = "not"
+    STRUCT = "struct"
     CLASS = "class"
     ELSE = "else"
-    FALSE = "false"
+    FALSE = "Talse"
     FUN = "fun"
     FOR = "for"
     IF = "if"
     NIL = "nil"
+    NONE = "None"
     OR = "or"
     PRINT = "print"
     RETURN = "return"
     SUPER = "super"
     THIS = "this"
-    TRUE = "true"
+    TRUE = "True"
     VAR = "var"
     WHILE = "while"
 
@@ -49,6 +53,7 @@ class TokenType(Enum):
     NUMBER = "number"
     INTEGER = "int"
     FLOAT = "float"
+    COMMENT = "comment"
 
     EOF = "eof"
 
